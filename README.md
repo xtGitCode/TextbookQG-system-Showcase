@@ -25,5 +25,10 @@ This project addresses the underutilization of textbooks in modern education, de
 ### User Interface Use Case Diagram
 ![image](https://github.com/xtGitCode/TextbookQG-system/assets/103571608/19d98388-b95a-48ed-873f-e2831d649130)
 
+## Conclusion (Limitations + Future Directions)
+The development of the TextbookQG system represents a significant stride towards integrating adaptive question generation technologies with educational textbooks. However, reflecting on the project, several limitations have been identified that could guide future improvements. 
+Currently, it relies on manually identifying tables of contents in PDFs, restricting its ability to handle diverse textbook formats. Additionally, the generated questions sometimes lack variety and exhibit inaccuracies in difficulty level classification. The adaptive learning component also updates user ability estimates based solely on the latest response, failing to account for overall performance patterns. 
+To overcome these challenges, future developments aim to enhance PDF processing capabilities by adopting techniques like bipartite graph matching for automatic section recognition across formats. Training question generation models on other datasets and expanding to different question types like fill-in-the-blank and true/false are expected to improve question variety and difficulty alignment. Furthermore, incorporating a Bayesian network approach for adaptive learning, which considers multiple factors and probabilistic relationships, is envisioned to provide more nuanced and personalized adaptations based on comprehensive learning patterns. 
+These future directions aim not only to address the current limitations of the TextbookQG system but also to expand its capabilities, making it a more versatile and powerful tool in the realm of educational technology. Through continuous development and integration of advanced technologies, the TextbookQG system is poised to significantly enhance the way students interact with and learn from textbooks
 
 
